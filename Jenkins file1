@@ -6,6 +6,7 @@ pipeline {
         stage('stage1 clone') {
             steps {
                 echo 'git clone the repo'
+                   https://github.com/harshith-k-hh/new-project.git
             }
         }
         stage('stage2 Build') {
